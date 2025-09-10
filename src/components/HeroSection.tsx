@@ -6,12 +6,12 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
       <div className="absolute inset-0 bg-gradient-primary opacity-90" />
-      
+
       {/* Animated Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-brand-accent rounded-full animate-pulse opacity-60" />
@@ -32,27 +32,28 @@ const HeroSection = () => {
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl mb-8 text-gray-200 font-light">
-            Where Web Tech meets Next Zen Solutions through 
+            Where Web Tech meets Next Zen Solutions through
             <span className="text-brand-accent font-semibold"> Innovation</span>
           </p>
 
           {/* Mission Statement */}
           <p className="text-lg md:text-xl mb-12 text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Empowering businesses by delivering innovative, reliable, and scalable digital solutions 
-            that drive growth and success in the digital era.
+            Empowering businesses by delivering innovative, reliable, and
+            scalable digital solutions that drive growth and success in the
+            digital era.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-brand-accent hover:bg-brand-accent/90 text-brand-primary font-semibold px-8 py-3 rounded-full shadow-glow transition-all duration-300 hover:scale-105"
             >
               Get Started
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="border-white/30 text-black hover:bg-white/10 px-8 py-3 rounded-full transition-all duration-300"
             >

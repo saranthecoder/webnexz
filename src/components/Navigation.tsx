@@ -39,6 +39,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
+              <img src="../../../src/assets/logo.png"  className="h-10 m-1 w-auto"  alt="" />
             <div className="text-2xl font-bold">
               <span className={`transition-colors duration-300 ${
                 isScrolled ? "text-brand-primary" : "text-white"
